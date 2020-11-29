@@ -21,8 +21,12 @@ h1 {
 }
 
 @media only screen and (max-width: 600px){
+    body{
+        align-items: flex-start;
+    }
     h1{
         font-size: 30px;
+        margin-top: 50px;
     }
 }
 
