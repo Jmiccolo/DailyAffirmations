@@ -1,0 +1,11 @@
+{
+  "name": "dailyaffirmations",
+  "version": "1.0.0",
+  "description": "A Daily Affirmations Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josh Miccolo",
+  "license": "ISC"
+}
