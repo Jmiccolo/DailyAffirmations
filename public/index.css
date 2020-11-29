@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    color: white;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 1.5s ease-in-out;
+}
+
+h1 {
+    width: 50%;
+    display: inline;
+    text-align: center;
+    transition: opacity 1.5s ease-in-out;
+    opacity: 1;
+    font-size: 50px;
+    text-shadow:1px 1px black;
+    font-family: Neuton, serif;
+    font-kerning: 10px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer h2 {
+    text-align:center;
+    font-size: 10px;
+}
+footer a {
+    color: white;
+}
+.hide {
+    opacity: 0;
+}
